@@ -20,7 +20,7 @@ function Paragrafo() {
   )
 }
 
-function App() {
+function Layout() {
   return (
     <Container >
       <Grid container spacing={2} component={'header'}>
@@ -62,6 +62,30 @@ function App() {
         </Grid>
       </Grid>
     </Container>
+
+  )
+}
+
+function App() {
+  return (
+    <Grid container spacing={2}>
+      <Grid item xs={6} sm={3} md={8} lg={12} xl={4}>
+        <Item>ITEM 1</Item>
+      </Grid>
+
+      <Grid item xs={6} sm={3} md={4} lg={12} xl={4}>
+        <Item>ITEM 2</Item>
+      </Grid>
+
+      <Grid item xs={6} sm={3} md={4} lg={12} xl={4}>
+        <Item>ITEM 3</Item>
+      </Grid>
+
+      <Grid item xs={6} sm={3} md={8} lg={12} xl={4}>
+        <Item>ITEM 4</Item>
+      </Grid>
+
+    </Grid>
   );
 }
 
