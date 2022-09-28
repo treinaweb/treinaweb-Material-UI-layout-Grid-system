@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Container from '@mui/material/Container'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container >
+      <h1>Exemplo</h1>
+      <p>
+        Est commodo aute duis ad voluptate. Aute proident ex officia ea pariatur id sit ipsum nisi nisi
+        adipisicing. Amet in et labore irure adipisicing. Tempor commodo commodo exercitation dolore.
+        Dolore dolor dolore et magna. In et consectetur laborum ex esse aliqua culpa ut. Sunt sint labore
+        proident consequat.
+      </p>
+      <p>
+        Est commodo aute duis ad voluptate. Aute proident ex officia ea pariatur id sit ipsum nisi nisi
+        adipisicing. Amet in et labore irure adipisicing. Tempor commodo commodo exercitation dolore.
+        Dolore dolor dolore et magna. In et consectetur laborum ex esse aliqua culpa ut. Sunt sint labore
+        proident consequat.
+      </p>
+      <p>
+        Est commodo aute duis ad voluptate. Aute proident ex officia ea pariatur id sit ipsum nisi nisi
+        adipisicing. Amet in et labore irure adipisicing. Tempor commodo commodo exercitation dolore.
+        Dolore dolor dolore et magna. In et consectetur laborum ex esse aliqua culpa ut. Sunt sint labore
+        proident consequat.
+      </p>
+      <p>
+        Est commodo aute duis ad voluptate. Aute proident ex officia ea pariatur id sit ipsum nisi nisi
+        adipisicing. Amet in et labore irure adipisicing. Tempor commodo commodo exercitation dolore.
+        Dolore dolor dolore et magna. In et consectetur laborum ex esse aliqua culpa ut. Sunt sint labore
+        proident consequat.
+      </p>
+    </Container>
   );
 }
 
