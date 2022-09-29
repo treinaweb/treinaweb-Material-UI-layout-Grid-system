@@ -143,9 +143,42 @@ function AutoGridNoWrap() {
   )
 }
 
+const GridStyled = styled(Grid)`
+  background-color: #1A2027;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+`
+
+function TemplateGrid() {
+  return (
+    <Grid
+      container
+      direction={'row'}
+      justifyContent={'flex-start'}
+      alignItems={'flex-start'}
+      sx={{ bgcolor: '#0a5483', height: '100vh' }}
+
+    >
+      <GridStyled item sx={{ p: 1 }}>
+        ITEM 1
+      </GridStyled>
+
+      <GridStyled item sx={{ p: 2 }}>
+        ITEM 2
+      </GridStyled>
+
+      <GridStyled item sx={{ p: 3 }}>
+        ITEM 3
+      </GridStyled>
+    </Grid>
+  )
+}
+
 function App() {
   return (
-    <AutoGridNoWrap />
+    <TemplateGrid />
   );
 }
 
