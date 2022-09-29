@@ -157,23 +157,19 @@ function TemplateGrid() {
       container
       direction={'column'}
       justifyContent={'space-evenly'}
-      alignItems={'flex-start'}
+      alignItems={'center'}
       sx={{ bgcolor: '#0a5483', height: '50vh' }}
 
     >
-      <GridStyled item alignSelf={'end'} sx={{ p: 2 }}>
+      <GridStyled item order={{ sm: 3 }} sx={{ p: 2 }}>
         ITEM 1
       </GridStyled>
 
-      <GridStyled item alignSelf={'center'} sx={{ p: 2 }}>
+      <GridStyled item order={{ sm: 1 }} sx={{ p: 2 }}>
         ITEM 2
       </GridStyled>
 
-      <GridStyled item alignSelf={'start'} sx={{ p: 2 }}>
-        ITEM 2
-      </GridStyled>
-
-      <GridStyled item alignSelf={'start'} sx={{ p: 2 }}>
+      <GridStyled item order={{ sm: 2 }} sx={{ p: 2 }}>
         ITEM 3
       </GridStyled>
     </Grid>
