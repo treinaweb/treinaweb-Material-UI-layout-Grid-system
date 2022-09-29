@@ -2,6 +2,9 @@ import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 import Paper from '@mui/material/Paper'
 import { styled } from '@mui/material/styles'
+import Box from '@mui/material/Box'
+import Avatar from '@mui/material/Avatar'
+import Typography from '@mui/material/Typography'
 
 const Item = styled(Paper)`
   background-color: #1A2027;
@@ -99,39 +102,50 @@ function TabelaDeBreakpoints() {
   )
 }
 
-function FormRow() {
-  return (
-    <>
-      <Grid item xs={4}>
-        <Item>ITEM 1</Item>
-      </Grid>
+const message = `Sunt amet ex anim pariatur proident eiusmod magna Lorem deserunt esse ipsum labore. Est ut in enim minim sint labore exercitation in exercitation in commodo reprehenderit proident. Enim veniam enim reprehenderit aliquip eiusmod veniam commodo dolore sit. Adipisicing officia elit eu et veniam cillum est. Aliquip mollit nulla adipisicing tempor. Ipsum veniam exercitation sint incididunt reprehenderit quis fugiat deserunt nostrud.`
 
-      <Grid item xs={4}>
-        <Item>ITEM 2</Item>
-      </Grid>
-      <Grid item xs={4}>
-        <Item>ITEM 3</Item>
-      </Grid>
-    </>
+function AutoGridNoWrap() {
+  return (
+    <Box sx={{ flexGrow: 1, overflow: 'hidden', px: 3, bgcolor: 'blue' }}>
+      <Item sx={{ my: 1, mx: 'auto', p: 2 }}>
+        <Grid container spacing={2} wrap='nowrap'>
+          <Grid item>
+            <Avatar>A</Avatar>
+          </Grid>
+          <Grid item zeroMinWidth>
+            <Typography noWrap>{message}</Typography>
+          </Grid>
+        </Grid>
+      </Item>
+
+      <Item sx={{ my: 1, mx: 'auto', p: 2 }}>
+        <Grid container spacing={2} wrap='nowrap'>
+          <Grid item>
+            <Avatar>A</Avatar>
+          </Grid>
+          <Grid item >
+            <Typography >{message}</Typography>
+          </Grid>
+        </Grid>
+      </Item>
+
+      <Item sx={{ my: 1, mx: 'auto', p: 2 }}>
+        <Grid container spacing={2} wrap='nowrap'>
+          <Grid item>
+            <Avatar>A</Avatar>
+          </Grid>
+          <Grid item >
+            <Typography noWrap>{message}</Typography>
+          </Grid>
+        </Grid>
+      </Item>
+    </Box>
   )
 }
 
 function App() {
   return (
-    <Grid container spacing={1}>
-
-      <Grid container item xs={4} spacing={2}>
-        <FormRow />
-      </Grid>
-
-      <Grid container item xs={4}>
-        <FormRow />
-      </Grid>
-
-      <Grid item xs={4}>
-        <Item>ITEM 2</Item>
-      </Grid>
-    </Grid>
+    <AutoGridNoWrap />
   );
 }
 
