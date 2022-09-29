@@ -24,34 +24,34 @@ function Layout() {
   return (
     <Container >
       <Grid container spacing={2} component={'header'}>
-        <Grid item xs={2}>
+        <Grid item xs={2} sm={3}>
           <Item>LOGO</Item>
         </Grid>
-        <Grid item xs={10} component={'nav'}>
+        <Grid item xs={10} sm={9} component={'nav'}>
           <Item>MENU</Item>
         </Grid>
       </Grid>
 
       <Grid container spacing={4}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <Paragrafo />
         </Grid>
-        <Grid item xs={6}>
-          <Paragrafo />
-        </Grid>
-
-        <Grid item xs={12}>
+        <Grid item xs={12} sm={6}>
           <Paragrafo />
         </Grid>
 
-        <Grid item xs={8}>
-          <Paragrafo />
-        </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={8}>
           <Paragrafo />
         </Grid>
 
-        <Grid item xs={12}>
+        <Grid item xs={12} sm={8}>
+          <Paragrafo />
+        </Grid>
+        <Grid item xs={12} sm={4}>
+          <Paragrafo />
+        </Grid>
+
+        <Grid item xs={12} sm={8}>
           <Paragrafo />
         </Grid>
       </Grid>
@@ -66,7 +66,8 @@ function Layout() {
   )
 }
 
-function App() {
+function TabelaDeBreakpoints() {
+
   return (
     <Grid container spacing={2}>
       <Grid item xs={6} sm={3} md={8} lg={12} xl={4}>
@@ -86,6 +87,13 @@ function App() {
       </Grid>
 
     </Grid>
+
+  )
+}
+
+function App() {
+  return (
+    <Layout />
   );
 }
 
