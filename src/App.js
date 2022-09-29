@@ -69,20 +69,20 @@ function Layout() {
 function TabelaDeBreakpoints() {
 
   return (
-    <Grid container rowSpacing={10} columnSpacing={{ xs: 1, sm: 5, md: 10 }}>
-      <Grid item xs={6} sm={3} md={8} lg={12} xl={4}>
+    <Grid container spacing={2} columns={{ xs: 4, sm: 8, md: 12 }}>
+      <Grid item xs={2} sm={2} md={3} >
         <Item>ITEM 1</Item>
       </Grid>
 
-      <Grid item xs={6} sm={3} md={4} lg={12} xl={4}>
+      <Grid item xs={2} sm={2} md={9} >
         <Item>ITEM 2</Item>
       </Grid>
 
-      <Grid item xs={6} sm={3} md={4} lg={12} xl={4}>
+      <Grid item xs={2} sm={2} md={3} >
         <Item>ITEM 3</Item>
       </Grid>
 
-      <Grid item xs={6} sm={3} md={8} lg={12} xl={4}>
+      <Grid item xs={2} sm={2} md={9} >
         <Item>ITEM 4</Item>
       </Grid>
 
