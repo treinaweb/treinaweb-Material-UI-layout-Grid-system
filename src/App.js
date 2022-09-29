@@ -99,9 +99,39 @@ function TabelaDeBreakpoints() {
   )
 }
 
+function FormRow() {
+  return (
+    <>
+      <Grid item xs={4}>
+        <Item>ITEM 1</Item>
+      </Grid>
+
+      <Grid item xs={4}>
+        <Item>ITEM 2</Item>
+      </Grid>
+      <Grid item xs={4}>
+        <Item>ITEM 3</Item>
+      </Grid>
+    </>
+  )
+}
+
 function App() {
   return (
-    <TabelaDeBreakpoints />
+    <Grid container spacing={1}>
+
+      <Grid container item xs={4} spacing={2}>
+        <FormRow />
+      </Grid>
+
+      <Grid container item xs={4}>
+        <FormRow />
+      </Grid>
+
+      <Grid item xs={4}>
+        <Item>ITEM 2</Item>
+      </Grid>
+    </Grid>
   );
 }
 
