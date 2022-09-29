@@ -69,7 +69,7 @@ function Layout() {
 function TabelaDeBreakpoints() {
 
   return (
-    <Grid container spacing={2}>
+    <Grid container rowSpacing={10} columnSpacing={{ xs: 1, sm: 5, md: 10 }}>
       <Grid item xs={6} sm={3} md={8} lg={12} xl={4}>
         <Item>ITEM 1</Item>
       </Grid>
@@ -93,7 +93,7 @@ function TabelaDeBreakpoints() {
 
 function App() {
   return (
-    <Layout />
+    <TabelaDeBreakpoints />
   );
 }
 
