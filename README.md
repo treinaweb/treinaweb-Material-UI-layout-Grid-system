@@ -1,70 +1,17 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aula | Video | Commit | Link
+------ | ------ | ------ | ------
+Aula 01 | Vídeo 01 - Instalando Reactr e Instalando Material UI | 01:01 - Instalando Reactr e Instalando Material UI | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/6aae6f7f15129140ad9a5e09dcb6205e5b338b03.zip)
+Aula 02 | Vídeo 03 - Conhecendo o Container | 02:03 - Conhecendo o Container | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/9fc114976d9306eae03d170c7944b30822e75a0c.zip)
+Aula 02 | Vídeo 04 - Conhecendo Grid container e Grid item | 02:04 - Conhecendo Grid container e Grid item | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/15f44b5f7893e211af2d4335e1b22056a2a9c06c.zip)
+Aula 02 | Vídeo 05 - Exemplo de layout | 02:05 - Exemplo de layout | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/7261303bde389745eaa6ed3cd89cb38adc193b1b.zip)
+Aula 03 | Vídeo 07 - Tabela de breakpoints | 03:07 - Tabela de breakpoints | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/54e6fe329abef886092c5927cfa121e45d2bb19f.zip)
+Aula 03 | Vídeo 08 - Definindo o layout responsivo com os breakpoints | 03:08 - Definindo o layout responsivo com os breakpoints | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/392a24b07f91ec4a3535c4fe907e55e80f5d2d9f.zip)
+Aula 03 | Vídeo 09 - Row e column spacing | 03:09 - Row e column spacing | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/63da252729b564f5774de05312a8bc193b8a06b3.zip)
+Aula 04 | Vídeo 10 - Conhecendo a propriedade columns | 04:10 - Conhecendo a propriedade columns | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/0c8fc6397aa074914b622a51e7b2d5915fca3019.zip)
+Aula 04 | Vídeo 11 - Layout automático | 04:11 - Layout automático | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/100e3e13f264acb903459a7d05d382da4f56e7fd.zip)
+Aula 04 | Vídeo 12 - Grid aninhada | 04:12 - Grid aninhada | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/c8de5c154d048ad258586da32da66e25a190ea5f.zip)
+Aula 04 | Vídeo 13 - Limitações | 04:13 - Limitações | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/eb215dd5fb11daa92ce5bd163cdde0771b0d107e.zip)
+Aula 05 | Vídeo 14 - Conhecendo a propriedade direction | 05:14 - Conhecendo a propriedade direction | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/17a4ff4a9af501caa0522dd1180239a3efadf2f4.zip)
+Aula 05 | Vídeo 18 - Alinhamento individual | 05:18 - Alinhamento individual | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/8463c420bb86579ab8ed4885a2a6f08f326a3573.zip)
+Aula 05 | Vídeo 19 - Reordenando as Colunas | 05:19 - Reordenando as Colunas | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/496555743630e4c04d0f8e2eb844e085912ad382.zip)
+Aula 06 | Vídeo 20 - Projeto final | 06:20 - Projeto final | [Download](https://github.com/treinaweb/treinaweb-Material-UI-layout-Grid-system/archive/1b67d9441f43a671f8b0c4bb6c6be85b94a433a8.zip)
