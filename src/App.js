@@ -5,7 +5,7 @@ import { styled } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 import Avatar from '@mui/material/Avatar'
 import Typography from '@mui/material/Typography'
-
+import Link from '@mui/material/Link'
 const Item = styled(Paper)`
   background-color: #1A2027;
   text-align: center;
@@ -25,46 +25,66 @@ function Paragrafo() {
 
 function Layout() {
   return (
-    <Container >
-      <Grid container spacing={2} component={'header'}>
-        <Grid item xs={2} sm={3}>
-          <Item>LOGO</Item>
+    <>
+
+      <Container>
+        <Grid container sx={{ my: 1, py: 3 }} spacing={2} component={'header'}>
+          <Grid item xs={4} sm={3}>
+            <img style={{ width: '150px' }} src={'/img/logo-treinaweb-azul.png'} alt='logo' />
+          </Grid>
+
+          <Grid container item xs={12} sm={9} component={'nav'} justifyContent={'space-evenly'}>
+            <Link href=''>HOME</Link>
+            <Link href=''>FOTOS</Link>
+            <Link href=''>PROJETOS</Link>
+            <Link href=''>CONTATO</Link>
+          </Grid>
         </Grid>
-        <Grid item xs={10} sm={9} component={'nav'}>
-          <Item>MENU</Item>
-        </Grid>
+      </Container>
+
+      <Grid container sx={{ height: '70vh', background: 'no-repeat center/cover url(/img/capa.jpg)' }}>
+        <Container>
+          <Grid item sx={{ color: 'white' }} xs={12} sm={8} md={6}>
+
+            <Paragrafo />
+
+          </Grid>
+        </Container>
       </Grid>
+      <Container>
 
-      <Grid container spacing={4}>
-        <Grid item xs={12} sm={6}>
-          <Paragrafo />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Paragrafo />
+        <Grid container spacing={4}>
+          <Grid item xs={12} sm={6}>
+            <Paragrafo />
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <Paragrafo />
+          </Grid>
+
+          <Grid item xs={12} sm={8}>
+            <Paragrafo />
+          </Grid>
+
+          <Grid item xs={12} sm={8}>
+            <Paragrafo />
+          </Grid>
+          <Grid item xs={12} sm={4}>
+            <Paragrafo />
+          </Grid>
+
+          <Grid item xs={12} sm={8}>
+            <Paragrafo />
+          </Grid>
         </Grid>
 
-        <Grid item xs={12} sm={8}>
-          <Paragrafo />
-        </Grid>
+        <Grid container component={'footer'} alignItems={'center'} direction={'column'}>
 
-        <Grid item xs={12} sm={8}>
-          <Paragrafo />
+          <Link href='https://github.com/treinaweb'>github</Link>
+          <Link href=''>Linkedin</Link>
+          <p>Copyright <Link href=''>Seu Website</Link> 2022</p>
         </Grid>
-        <Grid item xs={12} sm={4}>
-          <Paragrafo />
-        </Grid>
-
-        <Grid item xs={12} sm={8}>
-          <Paragrafo />
-        </Grid>
-      </Grid>
-      <Grid container component={'footer'}>
-
-        <Grid item xs={12}>
-          <Item>Footer</Item>
-        </Grid>
-      </Grid>
-    </Container>
+      </Container>
+    </>
 
   )
 }
@@ -178,7 +198,7 @@ function TemplateGrid() {
 
 function App() {
   return (
-    <TemplateGrid />
+    <Layout />
   );
 }
 
